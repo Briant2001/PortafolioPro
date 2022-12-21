@@ -1,0 +1,61 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6%;
+}
+.header__icon{
+    width: 1.3rem;
+    height:1.3rem;
+    margin-right: 10px;
+}
+.header__mi-nombre{
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+}
+.header__menu-lista{
+    display:flex;
+}
+.header__enlace{ 
+    list-style: none;
+}
+
+.header__enlace:last-child .header__link{
+    margin-right:0;
+}
+
+.header__link{
+    color: #464646;
+    text-decoration: none;
+    margin-right: 1.25rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.header__link.activo{ 
+    color: #333333;
+    font-weight: bold;
+}
+
+.header__link:hover{
+    text-decoration:underline;
+}
+
+@media (max-width: 768px) {
+    .show{
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .header__mi-nombre{
+        font-size: 12px;
+    }
+    .header__link{
+        font-size: 12px;
+    }
+    
+}

@@ -1,0 +1,92 @@
+.formacion{
+    background: var(--corlo-fondo-container);
+    margin-bottom: 6%;
+}
+
+
+.formacion__margen{
+    padding: 6% 0 6% 0;
+}
+
+.formacion__title{
+    text-align: center;
+    color: var(--corlo-fondo-letras);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 1rem;
+}
+
+.formacion__cursos{
+    display: flex;
+    justify-content: space-between;
+}
+.formacion__cursos__box{
+    width: 30%;
+}
+.formacion__content-img{
+    text-align: center;
+    background: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.formacion__img{
+    margin: 3rem;
+    height: 140px;
+}
+.formacion__texto{
+    color: var(--corlo-fondo-letras);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.formacion__fecha{
+    color: var(--corlo-fondo-letras);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .formacion__title{
+        font-size: 26px;
+    }
+    .formacion__content-img{
+        padding: 3rem;
+        
+    }
+    .formacion__img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .formacion__texto{
+        font-size: 22px;
+    }
+    .formacion__fecha{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 425px) {
+    .formacion__cursos{
+        flex-direction: column;
+    }
+    .formacion__title{
+        font-size: 20px;
+    }
+    .formacion__cursos__box{
+        width: 100%;
+    }
+    .formacion__img{    
+        width: initial;
+    }
+    .formacion__texto{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .formacion__fecha{
+        font-size: 12px;
+    }
+
+}

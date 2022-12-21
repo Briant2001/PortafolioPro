@@ -1,0 +1,124 @@
+.experiencia{
+    margin-bottom: 6%;
+}
+.experiencia__title{
+    color: var(--corlo-fondo-letras);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.experiencia__content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.experiencia__content:nth-child(3){
+    flex-direction: row-reverse;
+}
+.experiencia__content:nth-child(5){
+    flex-direction: row-reverse;
+}
+.experiencia__img{
+    width: 700px;
+}
+.experiencia__info{
+    padding: 1rem;
+    margin-left: 1rem;
+    width: 30%;
+}
+.experiencia__sprint{
+    color: var(--corlo-fondo-letras);
+    font-weight: 700;
+    font-size: 26px;
+}
+.experiencia__challenge{
+    color: #464646;
+    font-weight: 500;
+    font-size: 20px;
+}
+.experiencia__repo{
+    text-decoration: none;
+}
+.experiencia__demo{
+    text-decoration: none;
+}
+.experiencia__repo-enlace{
+    color: #2A7AE4;
+    cursor: pointer;
+    border:0.5px solid #2A7AE4;
+    background: transparent;
+    font-size: 16px;
+    margin-right: .3rem;
+    padding: .5rem;
+
+}
+.experiencia__demo-enlace{
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border:0.5px solid #2A7AE4 ;
+    font-size: 16px;
+    padding: .5rem;
+}
+
+
+@media (max-width: 768px) {
+    .experiencia__title{
+
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .experiencia__content{
+        flex-direction: column;
+        align-items: initial;
+    }
+    .experiencia__content:nth-child(3){
+        flex-direction: column;
+        align-items: initial;
+
+    }
+    .experiencia__content:nth-child(5){
+        flex-direction: column;
+        align-items: initial;
+    }
+    .experiencia__img{
+        width: 100%;
+    }
+    .experiencia__info{
+        width: 100%;
+        padding: 0;
+        margin-top:0.5rem ;
+        margin-left: 0;
+    }
+    .experiencia__sprint{
+        font-size:22px ;
+    }
+    .experiencia__challenge{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .experiencia__title{
+
+        font-size: 20px;
+        line-height:24px;
+    }
+    .experiencia__img{
+        width: 100%;
+    }
+    .experiencia__info{
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .experiencia__sprint{
+        font-size:18px ;
+    }
+    .experiencia__challenge{
+        font-size: 16px;
+    }
+}

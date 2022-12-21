@@ -1,0 +1,25 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --montserrat: "Montserrat", sans-serif;
+   --open-seans: "Open Sans", sans-serif;
+   --corlo-fondo-container: #EAF2FD;
+   --corlo-fondo-letras: #464646;
+   
+   
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.container{
+    padding-right: 6%;
+    padding-left: 6%;
+}
