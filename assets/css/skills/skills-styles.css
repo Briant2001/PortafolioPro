@@ -31,14 +31,20 @@
 
 
 .skills__conten{
-    margin: 0 0 0 0.5rem;
+    margin: 0;
 
 }
-
+.skills__icon{
+    width: 80px;
+}
+path{
+    fill: currentColor aqua !important;
+}
 .skills__box__li{
     list-style: none;
     margin-bottom: 0.5rem;
     font-size: 20px;
+    text-align: center;
 }
 @media (max-width: 768px) {
     .skills__title{
@@ -49,10 +55,7 @@
     .skills__box__li{
         font-size: 16px;
     }
-    .skills__box{
-        height: 100px;
     
-    }
 }
 
 @media (max-width: 480px) {
