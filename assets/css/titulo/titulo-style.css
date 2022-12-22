@@ -24,6 +24,8 @@
 }
 .title__network{
     display:flex;
+    align-items: center;
+
 }
   
 .title__enlace{
@@ -47,7 +49,9 @@
 .title__enlace__icon{
     margin-left: .2rem;
 }
-
+.fa-solid{
+    margin-right: 0.5rem;
+}
 @media (max-width: 768px) {
     .title__presentacion{
         font-size: 28px;
@@ -75,9 +79,22 @@
         font-size: 22px;
         line-height: 24px;
     }
+
     .title__descripcion{
         font-size: 18px;
         line-height: 22px;
+    }
+    
+    .title__link{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    .title__network{
+        justify-content: space-between;
+    }
+    .title__enlace{
+        margin: 0;
     }
     .title__profile{
         width: 100px;
