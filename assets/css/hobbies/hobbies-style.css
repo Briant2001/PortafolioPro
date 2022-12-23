@@ -18,15 +18,14 @@
 }
 
 .hobbies__box{
-    height: 150px;
     display:flex;
     flex-direction: column-reverse;
     background: #FFFFFF;
-    width:180px;
     margin-bottom: 1rem;
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
-
+    width: 180px;
+    height:130px;
 }
 
 
@@ -47,6 +46,17 @@
         line-height: 24px;
 
     }
+
+    .hobbies__lenguajes{
+    justify-content: space-around;
+    }
+    .hobbies__box{
+        height:100px;
+    }
+    .hobbies__icon{
+        width: 40px;
+        height: 50px;
+    }
     .hobbies__box__li{
         font-size: 16px;
     }
@@ -56,15 +66,8 @@
     .hobbies__title{
         font-size: 20px;
         line-height: 24px;
-
     }
     .hobbies__box__li{
         font-size: 16px;
     }
-    .hobbies__box{
-        height: 130px;
-        width:48%;
-        
-    }
-
 }
