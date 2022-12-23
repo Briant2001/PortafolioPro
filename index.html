@@ -197,22 +197,25 @@
         </section>
     </section>
 
-    <section class="contacto container">
+    <section class="contacto">
         <div class="contacto__content">
-            <img class="contacto__img" src="./assets/img/contact_image.png" alt="imagen telefono">
-            <div class="contacto__form">
-                <div class="contacto__cabecera">
-                    <h2 class="contacto__title">
-                        <a name="contacto">
-                            Contacto
-                        </a>
-                    </h2>
-                    <p class="contacto__info">
-                        ¿Quieres contactarme? <br>
+            <div class="contacto__content-box">
+                <img class="contacto__img" src="./assets/img/mano-humana.png" alt="">
+        
+            </div>
+            <div class="contacto__card-box">
+                <h2 class="contacto__title">
+                    <a name="contacto">
+                        Contacto
+                    </a>
+                </h2>
+                <p class="contacto__info">
+                        ¿Quieres contactarme?
                         Complete el siguiente formulario y me pondré en contacto con usted lo mas antes posible
                     </p>
-                </div>
+                <div class="contacto__cabecera">
                 <form class="contacto__content-form" action="">
+                    
                     <label id="mensaje-error" class="error" for=""></label>
                     <input id="nombre" class="contacto__input" type="text" placeholder="Nombre">
 
@@ -222,11 +225,12 @@
                     <input id="asunto" class="contacto__input" type="text" placeholder="Asunto">
 
                     <label id="mensaje-error3" class="error" for=""></label>
-                    <textarea id="mensaje-usuario"  class="contacto__textarea" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea id="mensaje-usuario"  class="contacto__textarea" placeholder="Dime algo" name="" id="" cols="10" rows="10"></textarea>
                     <div class="contacto__contet-button">
                         <button class="contacto__boton" type="submit"> Enviar mensaje</button>
                     </div>
                 </form>
+            </div>
                 
             </div>
         </div>
