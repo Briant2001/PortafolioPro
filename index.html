@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="./assets/css/experiencia/experiencia.css">
     <link rel="stylesheet" href="./assets/css/contacto/contacto-styles.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header class="header container">
@@ -211,14 +213,21 @@
                     </p>
                 </div>
                 <form class="contacto__content-form" action="">
-                    <input class="contacto__input" type="text" placeholder="Nombre">
+                    <label id="mensaje-error" class="error" for=""></label>
+                    <input id="nombre" class="contacto__input" type="text" placeholder="Nombre">
+
                     <input class="contacto__input" type="email" placeholder="Email">
-                    <input class="contacto__input" type="text" placeholder="Asunto">
-                    <textarea class="contacto__textarea" name="" id="" cols="30" rows="10"></textarea>
+
+                    <label id="mensaje-error2" class="error" for=""></label>
+                    <input id="asunto" class="contacto__input" type="text" placeholder="Asunto">
+
+                    <label id="mensaje-error3" class="error" for=""></label>
+                    <textarea id="mensaje-usuario"  class="contacto__textarea" name="" id="" cols="30" rows="10"></textarea>
+                    <div class="contacto__contet-button">
+                        <button class="contacto__boton" type="submit"> Enviar mensaje</button>
+                    </div>
                 </form>
-                <div class="contacto__contet-button">
-                    <button class="contacto__boton" type="submit"> Enviar mensaje</button>
-                </div>
+                
             </div>
         </div>
         
@@ -239,5 +248,7 @@
             </div>
         </div>
     </footer>
+    <script src="./validacion.js"></script>
+
 </body>
 </html>
