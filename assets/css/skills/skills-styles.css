@@ -72,4 +72,11 @@
     .skills__box__li{
         font-size: 16px;
     }
+    .skills__box{
+        width: 130px;
+    }
+    .skills__icon{
+        width: 30px;
+        height: 40px;
+    }
 }
