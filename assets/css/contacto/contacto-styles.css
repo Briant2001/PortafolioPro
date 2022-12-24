@@ -75,6 +75,7 @@
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 10rem;
+    padding: .4rem;
 }
 .contacto__textarea:focus{
     outline: none;
@@ -90,8 +91,9 @@
     cursor: pointer;
     color:#FFFFFF;
     margin-top: 1.5rem;
-    padding: 0.5rem;
+    padding: 1.2rem;
     width: 100%;
+
 
 }
 
