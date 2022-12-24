@@ -8,7 +8,6 @@ let timeout;
 let timeout2;
 let timeout3;
 
-//El evento lo puedes reemplazar con keyup, keypress y el tiempo a tu necesidad
 nombre.addEventListener('keydown', () => {
     clearTimeout(timeout)
     timeout = setTimeout(() => {
@@ -25,8 +24,8 @@ nombre.addEventListener('keydown', () => {
   })
 
   asunto.addEventListener('keydown', () => {
-    clearTimeout(timeout2)
-    timeout2 = setTimeout(() => {
+    clearTimeout(timeout)
+    timeout = setTimeout(() => {
       if ((asunto.value).length > 50) {
         mensaje2.style.display='block';
         mensaje2.innerHTML = "Lo ciento no debes exceder mas de los 50 caracteres"
@@ -35,22 +34,21 @@ nombre.addEventListener('keydown', () => {
       }else{
         mensaje2.style.display='none';
       }
-      clearTimeout(timeout2)
+      clearTimeout(timeout)
     },500)
   })
 
   mensaje_usuario.addEventListener('keydown', () => {
-    clearTimeout(timeout3)
-    timeout3 = setTimeout(() => {
-      if ((mensaje_usuario.value).length > 50) {
+    clearTimeout(timeout)
+    timeout = setTimeout(() => {
+      if ((mensaje_usuario.value).length > 300) {
         mensaje3.style.display='block';
-        mensaje3.innerHTML = "Lo ciento no debes exceder mas de los 50 caracteres"
+        mensaje3.innerHTML = "Lo ciento no debes exceder mas de los 300 caracteres"
         mensaje3.style.color = "red";
         mensaje_usuario.value="";
       }else{
         mensaje3.style.display='none';
       }
-      clearTimeout(timeout3)
+      clearTimeout(timeout)
     },500)
   })
-
