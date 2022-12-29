@@ -4,12 +4,17 @@
     justify-content: space-between;
     
 }
-.contacto__content{
+.contacto__content-img{
     width: 50%;
     padding: 2rem;
 }
 .contacto__img{
     width: 100%;
+}
+.contacto__formulario
+{
+    width: 50%;
+    padding: 2rem;
 }
 .conatcto__content-header{
     margin-bottom: .5rem;
@@ -30,4 +35,33 @@
 }
 fieldset{
     padding:0;
+}
+
+@media (max-width: 768px) {
+    .contacto__content-img{
+        display: none;
+    }
+    .contacto__formulario{
+        width: 100%;
+
+    }
+    .contacto__header{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .contacto__parrafo{
+        font-size:14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto__header{
+        font-size: 20px;
+        line-height:24px;
+    }
+    .contacto__parrafo{
+        font-size:12px;
+        line-height: 14px;
+    }
 }
