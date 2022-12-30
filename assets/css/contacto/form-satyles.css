@@ -87,3 +87,24 @@
 }
 
 
+.input-container--invalid {
+    margin-bottom:.5rem;
+}
+.input-container--invalid .form__input{
+    border: 1px solid #df2525;
+}
+
+.input-container--invalid .form__input-label{
+    color:#df2525;
+}
+
+.form__mensaje-error{
+    display: none;
+}
+
+.input-container--invalid .form__mensaje-error{
+    color: #df2525;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

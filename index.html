@@ -231,20 +231,20 @@
                         <div class="input-container">
                             <input name="name" id="name" class="form__input" type="text" placeholder="Nombre" required data-tipo="nombre">
                             <label class="form__input-label" for="name">Nombre</label>
-                            <span></span>
+                            <span class="form__mensaje-error">Este campo no debe estar vacio</span>
                         </div>
                         <div class="input-container">
                             <input name="email" id="email" class="form__input" type="email" placeholder="Email" required data-tipo="email">
                             <label class="form__input-label" for="email">Email</label>
-                            <span></span>
+                            <span class="form__mensaje-error">Este campo no debe estar vacio</span>
                         </div>
                         <div class="input-container">
                             <input name="asunto" id="asunto" class="form__input" type="text" placeholder="Asunto" required data-tipo="asunto">
                             <label class="form__input-label" for="asunto">Asunto</label>
-                            <span></span>
+                            <span class="form__mensaje-error">Este campo no debe estar vacio</span>
                         </div>
                         <div class="textarea-container">
-                            <textarea class="form__texarea" name="" id="" rows="10"  placeholder="Mensaje" required data-tipo="email"></textarea>
+                            <textarea class="form__texarea" name="" id="" rows="10"  placeholder="Mensaje" required data-tipo="mensaje" maxlength="300"></textarea>
                         </div>
                     </fieldset>
                     <button class="button">Enviar mensaje</a>
@@ -269,7 +269,7 @@
             </div>
         </div>
     </footer>
-    <script src="./validacion.js"></script>
+    <script type="module" src="./app.js"></script>
 
 </body>
 
