@@ -2,7 +2,6 @@ export function valida(input) {
     const tipoInput = input.dataset.tipo;
     validarLengh(input);
     if (input.validity.valid) {
-        console.log('Si se valido');
         input.parentElement.classList.remove('input-container--invalid');
     }else{
         input.parentElement.classList.add('input-container--invalid');
