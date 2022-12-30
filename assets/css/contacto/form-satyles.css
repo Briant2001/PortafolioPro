@@ -43,10 +43,19 @@
     font-size: 0.875rem;
     top: 0.25rem;
     transition: all 0.25s;
-  }
+}
+
+.form__input-label:focus{
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    background: red;
+}
 
 .textarea-container{
     width: 100%;
+    margin-bottom: 1rem;
+
 }
 .form__texarea{
     background: transparent;
@@ -60,4 +69,21 @@
 .form__texarea:focus{
     outline:none;
 }
+
+.button{
+    color: black;
+    font-size: 16px;
+    padding:16px;
+    border:1px solid #2A7AE4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.75s;
+    width: 45%;
+}
+.button:hover{
+    transform: scale(1.20);
+    transition: all 0.75s;
+
+}
+
 

@@ -229,24 +229,25 @@
             <form action="" class="form">
                     <fieldset>
                         <div class="input-container">
-                            <input class="form__input" type="text" placeholder="Nombre">
-                            <label class="form__input-label" for="">Nombre</label>
+                            <input name="name" id="name" class="form__input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                            <label class="form__input-label" for="name">Nombre</label>
                             <span></span>
                         </div>
                         <div class="input-container">
-                            <input class="form__input" type="text" placeholder="Email">
-                            <label class="form__input-label" for="">Email</label>
+                            <input name="email" id="email" class="form__input" type="email" placeholder="Email" required data-tipo="email">
+                            <label class="form__input-label" for="email">Email</label>
                             <span></span>
                         </div>
                         <div class="input-container">
-                            <input class="form__input" type="text" placeholder="Asunto">
-                            <label class="form__input-label" for="">Asunto</label>
+                            <input name="asunto" id="asunto" class="form__input" type="text" placeholder="Asunto" required data-tipo="asunto">
+                            <label class="form__input-label" for="asunto">Asunto</label>
                             <span></span>
                         </div>
                         <div class="textarea-container">
-                            <textarea class="form__texarea" name="" id="" rows="10"  placeholder="Mensaje"></textarea>
+                            <textarea class="form__texarea" name="" id="" rows="10"  placeholder="Mensaje" required data-tipo="email"></textarea>
                         </div>
                     </fieldset>
+                    <button class="button">Enviar mensaje</a>
             </form>
         </div>
     </section>
