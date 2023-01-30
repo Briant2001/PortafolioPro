@@ -4,6 +4,9 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6%;
+    background: #a7a7a7;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
 }
 .header__icon{
     width: 1.3rem;
@@ -33,6 +36,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
+    transition:all 0.20s;
+    border-radius:2px;
+    padding: .22rem;
 }
 
 .header__link.activo{ 
@@ -41,7 +47,7 @@
 }
 
 .header__link:hover{
-    text-decoration:underline;
+    background: #dbdada;
 }
 
 @media (max-width: 768px) {
