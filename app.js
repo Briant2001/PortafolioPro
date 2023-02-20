@@ -10,4 +10,4 @@ inputs.forEach(input => {
 })
 })()
 
-animacionLetras();
+//animacionLetras();

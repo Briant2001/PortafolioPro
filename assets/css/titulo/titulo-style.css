@@ -4,6 +4,10 @@
     margin-bottom: 6%;
     flex-direction: row-reverse;
 }
+.title__profile{
+    width: 300px;
+    border-radius: 300px;
+}
 .title__contenido{
 
 }
