@@ -10,7 +10,6 @@
 
 .formacion__title{
     text-align: center;
-    color: var(--corlo-fondo-letras);
     font-weight: 700;
     font-size: 30px;
     line-height: 34px;
@@ -35,14 +34,12 @@
     width: 100%;
 }
 .formacion__texto{
-    color: var(--corlo-fondo-letras);
     font-weight: 700;
     font-size: 24px;
     line-height: 26px;
 }
 
 .formacion__fecha{
-    color: var(--corlo-fondo-letras);
     font-weight: 500;
     font-size: 18px;
 }

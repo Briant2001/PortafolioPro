@@ -10,13 +10,11 @@
 
 }
 .sobre__title{
-    color: var(--corlo-fondo-letras);
     font-weight: 700;
     font-size: 30px;
     line-height: 34px;
 }
 .sobre__descripcion{
-    color: var(--corlo-fondo-letras);
     font-weight:400;
     font-size: 22px;
     text-align: justify;

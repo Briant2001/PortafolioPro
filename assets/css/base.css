@@ -1,7 +1,7 @@
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo: #eee;
    --cor-de-link: #000;
    --montserrat: "Montserrat", sans-serif;
    --open-seans: "Open Sans", sans-serif;
@@ -17,6 +17,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: #464646;
+
 }
 
 .container{
