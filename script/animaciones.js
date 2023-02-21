@@ -1,33 +1,41 @@
-const parrafo = document.querySelector(".title__presentacion");
-
-export function animacionLetras(){
+document.addEventListener("DOMContentLoaded", function(event) {
+   
+    const showNavbar = (toggleId, navId, bodyId, headerId) =>{
+    const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId),
+    bodypd = document.getElementById(bodyId),
+    headerpd = document.getElementById(headerId)
     
-    const presentacion = parrafo.innerHTML;
-    parrafo.innerHTML='';
-    const textoDiv = dividirTexto(presentacion);
-
-    console.log(textoDiv);
-
-    llenarConten(textoDiv)
-
-}
-
-const dividirTexto = (texto)=>{
-    const textoDiv = texto.split(' ');
-    return textoDiv;
-}
-
-function llenarConten(texto, index) {
-    for ( index = 0; index < texto.length; index++) {
-        setTimeout(()=>{
-            parrafo.innerHTML =parrafo.innerHTML + texto[index]+" ";
-            console.log("object");
-        },2000);
-        break
+    // Validate that all variables exist
+    if(toggle && nav && bodypd && headerpd){
+    toggle.addEventListener('click', ()=>{
+    // show navbar
+    nav.classList.toggle('show')
+    // change icon
+    toggle.classList.toggle('bx-x')
+    // add padding to body
+    bodypd.classList.toggle('body-pd')
+    // add padding to header
+    headerpd.classList.toggle('body-pd')
+    })
     }
-    //llenarConten(texto,index)
-}
-
+    }
+    
+    showNavbar('header-toggle','nav-bar','body-pd','header')
+    
+    /*===== LINK ACTIVE =====*/
+    const linkColor = document.querySelectorAll('.nav_link')
+    
+    function colorLink(){
+    if(linkColor){
+    linkColor.forEach(l=> l.classList.remove('active'))
+    this.classList.add('active')
+    }
+    }
+    linkColor.forEach(l=> l.addEventListener('click', colorLink))
+    
+     // Your code to run since DOM is loaded and ready
+    });
 
 
     
