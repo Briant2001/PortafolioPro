@@ -10,16 +10,6 @@
    --secondary-color: #c5e1ff;
    
 }
-body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    color: #464646;
-
-}
 
 .container{
     margin-top: 6%;
