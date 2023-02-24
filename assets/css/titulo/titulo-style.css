@@ -3,8 +3,13 @@
     display:flex;
     margin-bottom: 6%;
     flex-direction: row-reverse;
+    color: var(----corlo-fondo-letras);
 }
-
+.title__profile{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
 .title__presentacion{
     font-weight: 700;
     font-size: 36px;
