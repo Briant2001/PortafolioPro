@@ -20,12 +20,20 @@
     --z-fixed: 100
    
 }
-
-
-
-
+body {
+    position: relative;
+    margin: var(--header-height) 0 0 0;
+    padding-top: 3rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    transition: .5s;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 8%;
+}
 .container{
-    margin-top: 6%;
-    padding-right: 6%;
-    padding-left: 6%;
+    
 }

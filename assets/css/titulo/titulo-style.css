@@ -1,9 +1,7 @@
 .title{
     align-items: center;
     display:flex;
-    margin-bottom: 6%;
     flex-direction: row-reverse;
-    color: var(----corlo-fondo-letras);
 }
 .title__profile{
     width:300px;
