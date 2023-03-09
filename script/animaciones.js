@@ -24,6 +24,11 @@ for (let index = 0; index < btns.length; index++) {
     
 }
 
+document.querySelector(".div-ocultar-main").addEventListener("click",()=>{
+        ocultar.style.display="none";
+        menu.classList.remove("show");
+});
+
 
 
 
