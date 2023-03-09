@@ -17,6 +17,7 @@
 
 .formacion__cursos{
     display: flex;
+    margin: 0 2rem 0 2rem;
     justify-content: space-between;
 }
 .formacion__cursos__box{

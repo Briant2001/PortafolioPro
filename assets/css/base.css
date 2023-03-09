@@ -17,13 +17,10 @@
     --white-color: #F7F6FB;
     --body-font: 'Nunito', sans-serif;
     --normal-font-size: 1rem;
-    --z-fixed: 100
-   
+    --z-fixed: 100;
 }
 body {
-    position: relative;
     margin: var(--header-height) 0 0 0;
-    padding-top: 3rem;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     transition: .5s;
@@ -32,8 +29,11 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 .container{
-    
+    margin-bottom: 3%;
+}
+#secciones{
+    margin-bottom: 3rem;
 }

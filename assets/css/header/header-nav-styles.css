@@ -9,8 +9,22 @@
 a {
     text-decoration: none
 }
+.nav__btn_menu{
+    display: flex;
+    width: 100%;
+    color:var(--white-color);
+    margin-left: calc(100% - 89%);
+    height:3.56rem;
+    justify-content:space-between;
+    
 
-.header {
+    
+}
+.btn-menu{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/*.header {
     width: 100%;
     height: var(--header-height);
     position: fixed;
@@ -23,13 +37,13 @@ a {
     background-color: var(--white-color);
     z-index: var(--z-fixed);
     transition: .5s;
-}
+}*/
 
-.header_toggle {
+/*.header_toggle {
     color: var(--first-color);
     font-size: 1.5rem;
     cursor: pointer;
-}
+}*/
 
 .header_img {
     width: 30px;
@@ -53,7 +67,7 @@ a {
     background-color: var(--first-color);
     padding: .5rem 1rem 0 0;
     transition: .5s;
-    z-index: var(--z-fixed)
+    z-index: var(--z-fixed);
 }
 
 .nav {
@@ -61,7 +75,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .nav_logo,
@@ -95,33 +109,27 @@ a {
 }
 
 .nav_link:hover {
-    color: var(--white-color)
+    color: var(--white-color);
+    border-left: 3px solid;
 }
 
 .nav_icon {
     font-size: 1.25rem
 }
 
-.show {
+/*.show {
     left: 0
-}
+}*/
 
-.body-pd {
+/*.body-pd {
     padding-left: calc(var(--nav-width) + 1rem)
-}
+}*/
 
 .active {
     color: var(--white-color)
 }
 
-.active::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 2px;
-    height: 32px;
-    background-color: var(--white-color)
-}
+
 
 @media screen and (min-width: 768px) {
     body {

@@ -1,4 +1,49 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+const menu = document.querySelector("[data-nav-menu]");
+let menuBol = false;
+let ocultar = document.querySelector(".div-ocultar-main");
+
+document.querySelector("[data-nav-btn]").addEventListener("click",()=>{
+    if (menuBol) {
+        menu.classList.remove("show");
+        ocultar.style.display="none";
+        menuBol= false;
+    }else{
+        menu.classList.add("show");
+        ocultar.style.display="block";
+        menuBol=true;
+    }
+});
+
+
+const btns = document.querySelectorAll(".nav_link");
+for (let index = 0; index < btns.length; index++) {
+    btns[index].addEventListener("click",()=>{
+        ocultar.style.display="none";
+        menu.classList.remove("show");
+    })
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ocument.addEventListener("DOMContentLoaded", function(event) {
    
     const showNavbar = (toggleId, navId, bodyId, headerId) =>{
     const toggle = document.getElementById(toggleId),
@@ -8,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     // Validate that all variables exist
     if(toggle && nav && bodypd && headerpd){
+        console.log(toggle);
     toggle.addEventListener('click', ()=>{
     // show navbar
     nav.classList.toggle('show')
@@ -23,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     showNavbar('header-toggle','nav-bar','body-pd','header')
     
-    /*===== LINK ACTIVE =====*/
+    /*===== LINK ACTIVE =====
     const linkColor = document.querySelectorAll('.nav_link')
     
     function colorLink(){
@@ -38,4 +84,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
 
 
-    
+    **/
