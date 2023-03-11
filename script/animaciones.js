@@ -1,4 +1,4 @@
-const menu = document.querySelector("[data-nav-menu]");
+let menu = document.querySelector("[data-nav-menu]");
 let menuBol = false;
 let ocultar = document.querySelector(".div-ocultar-main");
 
