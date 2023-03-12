@@ -17,9 +17,11 @@ document.querySelector("[data-nav-btn]").addEventListener("click",()=>{
 
 const btns = document.querySelectorAll(".nav_link");
 for (let index = 0; index < btns.length; index++) {
-    btns[index].addEventListener("click",()=>{
+    btns[index].addEventListener("click",(event)=>{
         ocultar.style.display="none";
         menu.classList.remove("show");
+        btns.forEach(l=> l.classList.remove('active'))
+        btns[index].classList.toggle("active")
     })
     
 }
@@ -29,6 +31,11 @@ document.querySelector(".div-ocultar-main").addEventListener("click",()=>{
         menu.classList.remove("show");
 });
 
+
+function colorLink(){
+    
+}
+//btns.forEach(l=> l.addEventListener('click', colorLink))
 
 
 

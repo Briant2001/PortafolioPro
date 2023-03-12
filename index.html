@@ -11,7 +11,7 @@
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/adf72135d7.js" crossorigin="anonymous"></script>
-    <title  title="" > Mi Portafolio</title>
+    <title title=""> Mi Portafolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/base.css">
@@ -28,10 +28,10 @@
     <link rel="stylesheet" href="./assets/css/contacto/contacto-styles.css">
     <link rel="stylesheet" href="./assets/css/contacto/form-satyles.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-styles.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/header/header-nav-styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js
@@ -40,18 +40,18 @@
 ">
 </head>
 
-<body >
+<body>
     <div class="l-navbar" data-nav-menu>
         <nav class="nav">
-            <div>
                 <div class="nav__btn_menu"> <i id="btn-menu" class='bx bx-menu btn-menu' data-nav-btn></i> </div>
                 <a href="./index.html" class="nav_logo">
-                    <div class="header_img"> <img src="assets/img/img--perfil/miFoto.png" alt=""></div>
+                    <div class="nav__img"> <img class="nav__img" src="assets/img/img--perfil/mi-foto.png" alt=""></div>
                     <span class="nav_logo-name">Briant <br> Maldonado Macias</span>
                 </a>
                 <div class="nav_list">
                     <a href="#sec_presentacion" class="nav_link active"><i class="fa-solid fa-user"></i> <span
-                            class="nav_name">Presentación</span></a>
+                            class="nav_name">Presentación</span>
+                    </a>
                     <a href="#sec_sobre" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span
                             class="nav_name">Sobre
                             mí</span> </a>
@@ -64,44 +64,47 @@
                             class="nav_name">Experiencia <br> Profesional</span> </a>
                     <a href="#sec_contacto" class="nav_link"> <i class="fa-solid fa-address-book"></i> <span
                             class="nav_name">Contacto</span> </a>
-                </div>
             </div>
             <!-- #region  <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>-->
         </nav>
     </div>
-    
+
     <div class="div-ocultar-main"></div>
     <div class="main">
         <section class="container">
 
-                <section class="title">
-                    <img class="title__profile" src="./assets/img/img--perfil/Untitled (3).png" alt="">
-                    <div class="title__contenido">
+            <section class="title">
+                <img class="title__profile" src="./assets/img/img--perfil/mi-foto.png" alt="">
+                <div class="title__contenido">
+                    <a name="sec_presentacion">
                         <h2 class="title__presentacion">Hola, mi nombre es Briant Maldonodado Macías y soy programador
                             web.
                         </h2>
-                        <p class="title__descripcion">
-                            Actualmente soy estudiante de la carrera de Ingeniería en Sistemas Computacionales.
-                            Estoy en constante aprendizaje, realizando una formación como desarrollador web.
-                        </p>
-                        <ul class="title__network">
-                            <li class="title__enlace"><a class="title__link" href="https://github.com/Briant2001"><i
-                                        class="fa-brands fa-square-github"></i> GitHub</a></li>
-                            <li class="title__enlace"><a class="title__link"
-                                    href="https://www.linkedin.com/in/briant-maldonado-macias"><i
-                                        class="fa-brands fa-linkedin"></i>
-                                    LinkedIn</a></li>
-                            <li class="title__enlace"><a class="title__link" href="#"><i class="fa-solid fa-file"></i>
-                                    Currículum</a></li>
-                        </ul>
-                    </div>
-                </section>
+                    </a>
+                    <p class="title__descripcion">
+                        Actualmente soy estudiante de la carrera de Ingeniería en Sistemas Computacionales.
+                        Estoy en constante aprendizaje, realizando una formación como desarrollador web.
+                    </p>
+                    <ul class="title__network">
+                        <li class="title__enlace"><a class="title__link" href="https://github.com/Briant2001"><i
+                                    class="fa-brands fa-square-github"></i> GitHub</a></li>
+                        <li class="title__enlace"><a class="title__link"
+                                href="https://www.linkedin.com/in/briant-maldonado-macias"><i
+                                    class="fa-brands fa-linkedin"></i>
+                                LinkedIn</a></li>
+                        <li class="title__enlace"><a class="title__link" href="#"><i class="fa-solid fa-file"></i>
+                                Currículum</a></li>
+                    </ul>
+                </div>
+            </section>
         </section>
 
         <section class="container">
             <section class="sobre">
-                <a  name="sec_sobre">
-                    <div id="secciones"> <h2 class="sobre__title">Sobre mi</h2></div>
+                <a name="sec_sobre">
+                    <div id="secciones">
+                        <h2 class="sobre__title">Sobre mi</h2>
+                    </div>
                 </a>
                 <div class="sobre__contenido">
                     <p class="sobre__descripcion">
@@ -123,174 +126,182 @@
         </section>
 
         <section class="container">
-                <section class="skills">
-                    <a  name="sec_skills">
-                        <div id="secciones"> <h2 class="skills__title">Skills</h2></div>
+            <section class="skills">
+                <a name="sec_skills">
+                    <div id="secciones">
+                        <h2 class="skills__title">Skills</h2>
+                    </div>
+                </a>
+                <div class="skills__lenguajes">
+                    <div class="skills__box">
+                        <ul class="skills__conten">
+                            <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/html5.svg"
+                                    alt="Icom de HTML"></li>
+                            <li class="skills__box__li">HTML</li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul class="skills__conten">
+                            <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/js.svg"
+                                    alt="Icon de JavaScript "></li>
+                            <li class="skills__box__li">JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul class="skills__conten">
+                            <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/java.svg"
+                                    alt="Icon de JavaScript "></li>
+                            <li class="skills__box__li">Java</li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul class="skills__conten">
+                            <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/node.svg"
+                                    alt="icon de NodeJS"></li>
+                            <li class="skills__box__li">Node JS</li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul class="skills__conten">
+                            <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/css3-alt.svg"
+                                    alt="Icon de CSS"></li>
+                            <li class="skills__box__li">CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="container">
+
+            <section class="formacion">
+                <div class="formacion__margen">
+                    <a name="sec_formacion">
+                        <div id="secciones">
+                            <h2 class="formacion__title">Formación academica</h2>
+                        </div>
                     </a>
-                    <div class="skills__lenguajes">
-                        <div class="skills__box">
-                            <ul class="skills__conten">
-                                <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/html5.svg"
-                                        alt="Icom de HTML"></li>
-                                <li class="skills__box__li">HTML</li>
-                            </ul>
+                    <div class="formacion__cursos">
+                        <div class="formacion__cursos__box">
+                            <div class="formacion__content-img">
+                                <img class="formacion__img" src="./assets/img/logotec.png" alt="imagen-ufpr">
+                            </div>
+                            <h3 class="formacion__texto">Instituto Tecnológico Superior de Huetamo</h3>
+                            <p class="formacion__fecha">2018-ITSH</p>
                         </div>
-                        <div class="skills__box">
-                            <ul class="skills__conten">
-                                <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/js.svg"
-                                        alt="Icon de JavaScript "></li>
-                                <li class="skills__box__li">JavaScript</li>
-                            </ul>
+                        <div class="formacion__cursos__box">
+                            <div class="formacion__content-img">
+                                <img class="formacion__img" src="./assets/img/oracle-alura.png" alt="imagen-alura">
+                            </div>
+                            <h3 class="formacion__texto">Oracle Next Education - Alura Latam</h3>
+                            <p class="formacion__fecha">2019-alura</p>
                         </div>
-                        <div class="skills__box">
-                            <ul class="skills__conten">
-                                <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/java.svg"
-                                        alt="Icon de JavaScript "></li>
-                                <li class="skills__box__li">Java</li>
-                            </ul>
-                        </div>
-                        <div class="skills__box">
-                            <ul class="skills__conten">
-                                <li class="skills__box__li"><img class="skills__icon" src="./assets/img/icons/node.svg"
-                                        alt="icon de NodeJS"></li>
-                                <li class="skills__box__li">Node JS</li>
-                            </ul>
-                        </div>
-                        <div class="skills__box">
-                            <ul class="skills__conten">
-                                <li class="skills__box__li"><img class="skills__icon"
-                                        src="./assets/img/icons/css3-alt.svg" alt="Icon de CSS"></li>
-                                <li class="skills__box__li">CSS</li>
-                            </ul>
-                        </div>
+
                     </div>
-                </section>
+                </div>
+            </section>
         </section>
 
         <section class="container">
-                
-                <section class="formacion">
-                    <div class="formacion__margen">
-                        <a  name="sec_formacion">
-                            <div id="secciones"> <h2 class="formacion__title">Formación academica</h2></div>
-                        </a>
-                        <div class="formacion__cursos">
-                            <div class="formacion__cursos__box">
-                                <div class="formacion__content-img">
-                                    <img class="formacion__img" src="./assets/img/logotec.png" alt="imagen-ufpr">
-                                </div>
-                                <h3 class="formacion__texto">Instituto Tecnológico Superior de Huetamo</h3>
-                                <p class="formacion__fecha">2018-ITSH</p>
-                            </div>
-                            <div class="formacion__cursos__box">
-                                <div class="formacion__content-img">
-                                    <img class="formacion__img" src="./assets/img/oracle-alura.png" alt="imagen-alura">
-                                </div>
-                                <h3 class="formacion__texto">Oracle Next Education - Alura Latam</h3>
-                                <p class="formacion__fecha">2019-alura</p>
-                            </div>
-
-                        </div>
+            <section class="experiencia">
+                <a name="sec_experiencia">
+                    <div id="secciones">
+                        <h2 class="experiencia__title">Experiencia profesional </h2>
                     </div>
-                </section>
-        </section>
-
-        <section class="container">
-                <section class="experiencia">
-                    <a  name="sec_experiencia">
-                        <div id="secciones"><h2 class="experiencia__title">Experiencia profesional </h2></div>
-                    </a>
-                    <section class="experiencia__content">
-                        <img class="experiencia__img" src="./assets/img/img-challenges/secretcode_print.png"
-                            alt="imagen juego del ecriptador">
-                        <div class="experiencia__info">
-                            <h2 class="experiencia__sprint">Encriptador de texto</h2>
-                            <p class="experiencia__challenge">Challenge Oracle</p>
-                            <div class="experiencia__btns">
-                                <a class="experiencia__repo" href="https://github.com/Brayan2412/Encriptador">
-                                    <button class="experiencia__repo-enlace">
-                                        Repositorio
-                                    </button>
-                                </a>
-                                <a class="experiencia__demo" href="https://brayan2412.github.io/Encriptador/">
-                                    <button class="experiencia__demo-enlace">
-                                        Ver demo
-                                    </button>
-                                </a>
-                                </span>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="experiencia__content">
-                        <img class="experiencia__img" src="./assets/img/img-challenges/forca2_print.png"
-                            alt="imagen juego del ahorcado">
-                        <div class="experiencia__info">
-                            <h2 class="experiencia__sprint">Juego creado con HTML, CSS y JavaScript</h2>
-                            <p class="experiencia__challenge">Challenge Oracle</p>
-                            <div class="experiencia__btns">
-                                <a class="experiencia__repo" href="https://github.com/Brayan2412/CursoOracle-Juego">
-                                    <button class="experiencia__repo-enlace">
-                                        Repositorio
-                                    </button>
-                                </a>
-                                <a class="experiencia__demo" href="https://brayan2412.github.io/CursoOracle-Juego/">
-                                    <button class="experiencia__demo-enlace">
-                                        Ver demo
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-        </section>
-
-        <section class="container">
-                
-                <section class="contacto">
-                    <div class="contacto__content-img">
-                        <img class="contacto__img" src="./assets/img/mano-humana.png" alt="">
-                    </div>
-                    <div class="contacto__formulario">
-                        <div class="conatcto__content-header">
-                            <a  name="sec_contacto">
-                                <div id="secciones"><h2 class="contacto__header">Contactame aquí</h2></div>
+                </a>
+                <section class="experiencia__content">
+                    <img class="experiencia__img" src="./assets/img/img-challenges/secretcode_print.png"
+                        alt="imagen juego del ecriptador">
+                    <div class="experiencia__info">
+                        <h2 class="experiencia__sprint">Encriptador de texto</h2>
+                        <p class="experiencia__challenge">Challenge Oracle</p>
+                        <div class="experiencia__btns">
+                            <a class="experiencia__repo" href="https://github.com/Brayan2412/Encriptador">
+                                <button class="experiencia__repo-enlace">
+                                    Repositorio
+                                </button>
                             </a>
-                            <p class="contacto__parrafo">¿Quieres contactarme? Complete el siguiente formulario y me
-                                pondré
-                                en
-                                contacto con usted lo antes posible.</p>
+                            <a class="experiencia__demo" href="https://brayan2412.github.io/Encriptador/">
+                                <button class="experiencia__demo-enlace">
+                                    Ver demo
+                                </button>
+                            </a>
+                            </span>
                         </div>
-                        <form action="" class="form">
-                            <fieldset>
-                                <div class="input-container">
-                                    <input name="name" id="name" class="form__input" type="text" placeholder="Nombre"
-                                        required data-tipo="nombre">
-                                    <label class="form__input-label" for="name">Nombre</label>
-                                    <span class="form__mensaje-error">Este campo no debe estar vacio</span>
-                                </div>
-                                <div class="input-container">
-                                    <input name="email" id="email" class="form__input" type="email" placeholder="Email"
-                                        required data-tipo="email">
-                                    <label class="form__input-label" for="email">Email</label>
-                                    <span class="form__mensaje-error">Este campo no debe estar vacio</span>
-                                </div>
-                                <div class="input-container">
-                                    <input name="asunto" id="asunto" class="form__input" type="text"
-                                        placeholder="Asunto" required data-tipo="asunto">
-                                    <label class="form__input-label" for="asunto">Asunto</label>
-                                    <span class="form__mensaje-error">Este campo no debe estar vacio</span>
-                                </div>
-                                <div class="textarea-container">
-                                    <textarea class="form__texarea" name="" id="" rows="10" placeholder="Mensaje"
-                                        required data-tipo="mensaje" maxlength="300"></textarea>
-                                </div>
-                            </fieldset>
-                            <button class="button">Enviar mensaje
-
-                        </form>
                     </div>
                 </section>
+
+                <section class="experiencia__content">
+                    <img class="experiencia__img" src="./assets/img/img-challenges/forca2_print.png"
+                        alt="imagen juego del ahorcado">
+                    <div class="experiencia__info">
+                        <h2 class="experiencia__sprint">Juego creado con HTML, CSS y JavaScript</h2>
+                        <p class="experiencia__challenge">Challenge Oracle</p>
+                        <div class="experiencia__btns">
+                            <a class="experiencia__repo" href="https://github.com/Brayan2412/CursoOracle-Juego">
+                                <button class="experiencia__repo-enlace">
+                                    Repositorio
+                                </button>
+                            </a>
+                            <a class="experiencia__demo" href="https://brayan2412.github.io/CursoOracle-Juego/">
+                                <button class="experiencia__demo-enlace">
+                                    Ver demo
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <section class="container">
+
+            <section class="contacto">
+                <div class="contacto__content-img">
+                    <img class="contacto__img" src="./assets/img/mano-humana.png" alt="">
+                </div>
+                <div class="contacto__formulario">
+                    <div class="conatcto__content-header">
+                        <a name="sec_contacto">
+                            <div id="secciones">
+                                <h2 class="contacto__header">Contactame aquí</h2>
+                            </div>
+                        </a>
+                        <p class="contacto__parrafo">¿Quieres contactarme? Complete el siguiente formulario y me
+                            pondré
+                            en
+                            contacto con usted lo antes posible.</p>
+                    </div>
+                    <form action="" class="form">
+                        <fieldset>
+                            <div class="input-container">
+                                <input name="name" id="name" class="form__input" type="text" placeholder="Nombre"
+                                    required data-tipo="nombre">
+                                <label class="form__input-label" for="name">Nombre</label>
+                                <span class="form__mensaje-error">Este campo no debe estar vacio</span>
+                            </div>
+                            <div class="input-container">
+                                <input name="email" id="email" class="form__input" type="email" placeholder="Email"
+                                    required data-tipo="email">
+                                <label class="form__input-label" for="email">Email</label>
+                                <span class="form__mensaje-error">Este campo no debe estar vacio</span>
+                            </div>
+                            <div class="input-container">
+                                <input name="asunto" id="asunto" class="form__input" type="text" placeholder="Asunto"
+                                    required data-tipo="asunto">
+                                <label class="form__input-label" for="asunto">Asunto</label>
+                                <span class="form__mensaje-error">Este campo no debe estar vacio</span>
+                            </div>
+                            <div class="textarea-container">
+                                <textarea class="form__texarea" name="" id="" rows="10" placeholder="Mensaje" required
+                                    data-tipo="mensaje" maxlength="300"></textarea>
+                            </div>
+                        </fieldset>
+                        <button class="button">Enviar mensaje
+
+                    </form>
+                </div>
+            </section>
         </section>
 
     </div>
