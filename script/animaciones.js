@@ -2,57 +2,35 @@ let menu = document.querySelector("[data-nav-menu]");
 let menuBol = false;
 let ocultar = document.querySelector(".div-ocultar-main");
 
-document.querySelector("[data-nav-btn]").addEventListener("click",()=>{
-    if (menuBol) {
-        menu.classList.remove("show");
-        ocultar.style.display="none";
-        menuBol= false;
-    }else{
-        menu.classList.add("show");
-        ocultar.style.display="block";
-        menuBol=true;
-    }
+document.querySelector("[data-nav-btn]").addEventListener("click", () => {
+  if (menuBol) {
+    menu.classList.remove("show");
+    ocultar.style.display = "none";
+    menuBol = false;
+  } else {
+    menu.classList.add("show");
+    ocultar.style.display = "block";
+    menuBol = true;
+  }
 });
-
 
 const btns = document.querySelectorAll(".nav_link");
 for (let index = 0; index < btns.length; index++) {
-    btns[index].addEventListener("click",(event)=>{
-        ocultar.style.display="none";
-        menu.classList.remove("show");
-        btns.forEach(l=> l.classList.remove('active'))
-        btns[index].classList.toggle("active")
-    })
-    
+  btns[index].addEventListener("click", (event) => {
+    ocultar.style.display = "none";
+    menu.classList.remove("show");
+    btns.forEach((l) => l.classList.remove("active"));
+    btns[index].classList.toggle("active");
+  });
 }
 
-document.querySelector(".div-ocultar-main").addEventListener("click",()=>{
-        ocultar.style.display="none";
-        menu.classList.remove("show");
+document.querySelector(".div-ocultar-main").addEventListener("click", () => {
+  ocultar.style.display = "none";
+  menu.classList.remove("show");
 });
 
-
-function colorLink(){
-    
-}
+function colorLink() {}
 //btns.forEach(l=> l.addEventListener('click', colorLink))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 ocument.addEventListener("DOMContentLoaded", function(event) {
