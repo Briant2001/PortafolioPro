@@ -73,14 +73,14 @@ a {
 
 .nav_link:hover {
     color: var(--white-color);
-    border-left: 3px solid;
 }
 
 .nav_icon {
     font-size: 1.25rem
 }
 .active {
-    color: var(--white-color)
+    color: var(--white-color);
+    border-left: 3px solid;
 }
 
 .show {
@@ -99,6 +99,3 @@ a {
     opacity: 0.9;
     display: none;
 }   
-body {
-    
-}
